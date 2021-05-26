@@ -1,0 +1,38 @@
+body{
+  background-color: #440bd6;
+}
+.App{
+  background-color: #247a24;
+  min-height:500px;
+  width: 400px;
+  margin: 40px auto;
+}
+
+#crud-list-form input{
+  background-color: rgb(5, 53, 68);
+  border: 0; 
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+#crud-list-form input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+#crud-list-form input:focus{
+  outline: none;
+}
+#crud-list-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color:rgba(202, 156, 24, 1); 
+  cursor: pointer;
+}
+#crud-list-form button:focus{
+  outline: none;
+}
